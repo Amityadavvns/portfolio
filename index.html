@@ -20,14 +20,15 @@
   <body>
     <header>
       <!---- navigation bar-->
-      <a href="#" class="logo">Portfolio.</a>
+      <a href="#" class="logo">Port<span>folio.</span></a>
       <div class="bx bx-menu" id="menu-icon"></div>
       <ul class="navbar">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Skills</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">contact </a></li>
+        <li><a href="#" id="home1">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills
+          " id="skilltop">Skills</a></li>
+        <li><a href="#portfolio">Project</a></li>
+        <li><a href="#contact"> contact </a></li>
         <!---- button for responsive devive-->
         <div class="bx bx-moon" id="darkmode"></div>
       </ul>
@@ -35,9 +36,10 @@
     <!--Home -->
     <section class="home" id="home">
       <div class="social">
-        <a href="#"><i class="bx bxl-github"></i></a>
-        <a href="#"><i class="bx bxl-dribbble"></i></a>
-        <a href="#"><i class="bx bxl-behance"></i></a>
+        <a href="https://wa.me/9682823902"><i class="bx bxl-whatsapp"></i></a>
+        <a href="https://www.linkedin.com/in/amit-yadav-08a903235/"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/Amityadavvns"><i class="bx bxl-github"></i></a>
+        <a href="https://hashnode.com/@amityadav65"><i class="bx bxl-behance"></i></a>
       </div>
       <div class="home-img">
         <img src="./images/pro.png" alt="" />
@@ -46,16 +48,48 @@
         <span>Hello, I'm</span>
         <h1>Amit Yadav</h1>
         <h2>Fullstack Web Developer</h2>
+        
         <p>
           I am a Front-End / Full-Stack Developer. I'm currently working on my portfolio and learning new skills. I'm looking for a job as a web developer. I'm also looking for a mentor to help me grow as a developer.
         </p>
-        <a href="#" class="btn">Contact me</a>
+        <a href="#" class="btn" id="open-btn">Contact me</a>
       </div>
     </section>
+    
+    <div class="popup">
+      <div class="close-btn">&times;</div>
+      <div class="form">
+        <form action="https://formsubmit.co/amituitrgpv@gmail.com" method="POST">
+        <h2>Contact me</h2>
+        <div class="form-element">
+          <label>Enter your name</label>
+          <input type="text" id="name" placeholder="Enter Your Name">
+        </div>
+        <div class="form-element">
+          <label>Enter your Email</label>
+          <input type="text" id="email" placeholder="Enter Your Email">
+        </div>
+        <div class="form-element">
+          <label>Enter your message</label>
+          <textarea name="" id="" cols="2" rows="1" placeholder="write message Here....."></textarea>
+          
+        </div>
+        <div class="form-element">
+          <button type="submit">Send Message</button>
+          
+        </div>
+      </form>
+
+
+
+
+      </div>
+
+    </div>
     <section class="about" id="about">
       <!--heading-->
       <div class="heading">
-        <h2>About Me</h2>
+        <h2 id="about">About Me </h2>
         <span>Introduction</span>
       </div>
       <!--about contact-->
@@ -85,100 +119,125 @@
             </div>
           </div>
           <!--BTN-->
-          <a href="#" class="btn">Download CV</a>
+          <a href="./cv/amit cv.pdf" class="btn">Download CV</a>
         </div>
       </div>
     </section>
     <!-- skill section-->
     <section class="skills" id="skills">
       <div class="heading">
-        <h2>Skills</h2>
+        <a href="#skilltop"><h2>Skills</h2></a>
         <span>My Skills</span>
       </div>
       <!-- skill content-->
-      <div class="skills-container">
-        <div class="bars">
-          <!-- box 1-->
-          <div class="bars-box">
-            <h3>HTML</h3>
-            <span>93%</span>
-            <div class="light-bars"></div>
-            <div class="percent-bar html-bar"></div>
-          </div>
-          <!-- box 2-->
-          <div class="bars-box">
-            <h3>CSS</h3>
-            <span>70%</span>
-            <div class="light-bars"></div>
-            <div class="percent-bar css-bar"></div>
-          </div>
-          <!-- box 3-->
-          <div class="bars-box">
-            <h3>JavaScript</h3>
-            <span>49%</span>
-            <div class="light-bars"></div>
-            <div class="percent-bar js-bar"></div>
-          </div>
-          <!-- box 4-
-          <div class="bars-box">
-            <h3>HTML</h3>
-            <span>93%</span>
-            <div class="light-bars"></div>
-            <div class="percent-bar html-bar"></div>
-          </div>
-        -->
-        </div>
-        <!-- image-->
-        <div class="skills-img">
-          <img src="./images/skill.png" alt="skill img">
-        </div>
-      </div>
+      
     </section>
+    
+    <div class="container">
+      <div class="slide-container">
+        <div class="slide-image">
+          
+            <img src="./icon/c.png" alt="c language">
+            
+          
+        </div>
+        <div class="slide-image">
+          
+            <img src="./icon/css.png" alt="c language">
+          
+        </div>
+        <div class="slide-image">
+          
+            <img src="./icon/git.png" alt="c language">
+          
+        </div>
+        <div class="slide-image">
+          
+            <img src="./icon/github-logo.png" alt="c language">
+          
+        </div>
+        <div class="slide-image">
+          
+            <img src="./icon/java.png" alt="c language">
+          
+        </div>
+        <div class="slide-image">
+          
+            <img src="./icon/javascript.png" alt="c language">
+          
+        </div>
+        <div class="slide-image">
+          
+            <img src="./icon/react.png" alt="c language">
+          
+        </div>
+        <div class="slide-image">
+          
+            <img src="./icon/tailwind-css.png" alt="c language">
+          
+        </div>
+        <div class="slide-image">
+          
+          <img src="./icon/c.png" alt="c language">
+          
+        
+      </div>
+      <div class="slide-image">
+        
+          <img src="./icon/css.png" alt="c language">
+        
+      </div>
+      <div class="slide-image">
+        
+          <img src="./icon/git.png" alt="c language">
+        
+      </div>
+      <div class="slide-image">
+        
+          <img src="./icon/github-logo.png" alt="c language">
+        
+      </div>
+      <div class="slide-image">
+        
+          <img src="./icon/java.png" alt="c language">
+        
+      </div>
+      <div class="slide-image">
+        
+          <img src="./icon/javascript.png" alt="c language">
+        
+      </div>
+      <div class="slide-image">
+        
+          <img src="./icon/react.png" alt="c language">
+        
+      </div>
+      <div class="slide-image">
+        
+          <img src="./icon/tailwind-css.png" alt="c language">
+        
+      </div>
+      
+        
+      </div>
+    </div>
+  
+    
     <!--             service box             -->
-    <section class="project" id="project">
-      <div class="heading">
-        <h2> Project</h2>
-        <span>Project work</span>
-     </div>
-     <div class="project-content">
-      <div class="project-box">
-      <i class="bxbx-code-alt"></i>
-      <h3>1</h3>
-      <a href="#"></a>
-     </div>
-      <!--             box 2             -->
-     <div class="project-box">
-      <i class="bxbx-code-alt"></i>
-      <h3>2</h3>
-      <a href="#"></a>
-     </div>
-      <!--             box 3             -->
-     <div class="project-box">
-      <i class="bxbx-code-alt"></i>
-      <h3>3</h3>
-      <a href="#"></a>
-     </div>
-     </div>
-      <!--             box 4             -->
-      <div class="project-box">
-        <i class="bxbx-code-alt"></i>
-        <h3>4</h3>
-        <a href="#"></a>
-       </div>
-       </div>
- </section>
+    
  <!---  portfolio section-->
  <section class="portfolio" id="portfolio">
   <div class="heading">
-    <h2>portfolio</h2>
+    <h2>project</h2>
     <span>our recent project</span>
   </div>
   <div class="portfolio-content">
     <div class="portfolio-img">
-      <img src="./images/blog-1.jpg" alt="">
+     <a href="#"><img src="/images/project1.png" alt=""></a>
+     <h5>drum kitt</h5> 
     </div>
     <div class="portfolio-img">
-      <img src="./images/blog-2.jpg" alt="">
+     <a href="https://amityadavvns.github.io/Calculator-project/"> <img src="./images/project2.png" alt=""></a>
     </div>
     <div class="portfolio-img">
       <img src="./images/blog-3.jpg" alt="">
@@ -197,6 +256,7 @@
     </div>
 
   </div>
+  
  </section>
  <!--   contactt form   -->
  <section class="contact" id="contact">
@@ -206,7 +266,7 @@
   </div>
   <!-- form-->
   <div class="contact-form">
-    <form action="mailto:mjamit1947@gmail.com" method="post">
+    <form onsubmit="sendEmail()";reset();return false; action="mailto:mjamit1947@gmail.com" method="post">
       <input type="text" placeholder="Your name">
       <input type="email" placeholder="Your email">
       <textarea name="" id="" cols="30" rows="10" placeholder="write message Here....."></textarea>
@@ -219,16 +279,18 @@
   <h2>Connect with me</h2>
   <div class="footer-social">
     <a href="#"><i class="bx bxl-facebook"></i></a>
-    <a href="#"><i class="bx bxl-twitter"></i></a>
-    <a href="#"><i class="bx bxl-instagram"></i></a>
-    <a href="#"><i class="bx bxl-youtube"></i></a>
-    <a href="#"><i class="bx bxl-github"></i></a>
+    <a href="https://twitter.com/amityadavup65"><i class="bx bxl-twitter"></i></a>
+    <a href="https://www.instagram.com/amityadav_vns/"><i class="bx bxl-instagram"></i></a>
+    <a href="https://www.youtube.com/channel/UCN0VUAV6xcmYmnfVNVaNjnw"><i class="bx bxl-youtube"></i></a>
+    <a href="https://github.com/Amityadavvns"><i class="bx bxl-github"></i></a>
+    <a href="https://www.linkedin.com/in/amit-yadav-08a903235"><i class="bx bxl-linkedin"></i></a>
   </div>
  </div>
  <!--- copyright-->
  <div class="copyright">
   <p>Created By <a href="#">Amityadav</a> | All Right Reserved.</p>
  </div>
+ <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
